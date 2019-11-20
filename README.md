@@ -8,10 +8,10 @@
  1. Run function below included in script
  2. Use the function as follows (assuming dataset 'data')
     
- results <- CToutliers2step(CTvalues = data$ct,
+ `results <- CToutliers2step(CTvalues = data$ct,
                            sampleID = data$id,
                            freqCarrier = 0.1,
-                           ['optional_arguments'])
+                           ['optional_arguments'])`
  
 ## Input Parameters 
 ### Mandatory Arguments:
