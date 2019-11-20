@@ -1,6 +1,8 @@
 
 ## Introduction
-...
+This R script uses a a bagged clustering algorithm as implemented in the R function 'classIntervals' (package 'classInt') to fit two normal distributions to the two overlapping Ct values distributions (as originating, for example, from an allele-specifc qPCR where the specific (mutant) target is apmplified earlier than the non-mutant target). it classifies each sample as belonging to one of the two distributions and flags samples which cannot be unique assigned to one of the two distributions (i.e. samples located in the overlap of the two distributions).
+The script is used for analysis of the allele-specific qPCR assay used in our recent publication "Investigation of an LPA KIV-2 nonsense mutation in 11,000 individuals: the importance of linkage disequilibrium structure in LPA genetics." Bioarxiv 2019 [LINK]. For a detailed description please refer to the publications. 
+
 
 ## Help
 
